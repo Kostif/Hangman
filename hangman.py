@@ -60,6 +60,7 @@ while game == True:
     word_display = list(('_')*len(current_word))
     replay = ''
     input('Welcome to hangman! Press any key to continue.')
+    os.system('clear')
 
     while lives != 0 and won == False:
         
