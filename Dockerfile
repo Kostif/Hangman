@@ -2,6 +2,6 @@ FROM python:3
 
 LABEL kostif dantestcr@gmail.com
 
-COPY Tictactoe.py .
+COPY hangman.py .
  
-CMD ["python", "./Tictactoe.py"]
+CMD ["python", "./hangman.py"]
