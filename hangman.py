@@ -63,9 +63,11 @@ while game == True:
     input('Welcome to hangman! Press any key to continue.')
 
     while lives != 0 and won == False:
-        print(f"Good luck! {word_display}  {lives} lives.")
+        
         guess = player_guess()
         os.system('clear')
+        print(f"Good luck! {word_display}  {lives} lives.")
+        print(f"You have used these letters {used_letters}.")
         lives = guess_check(guess,lives)
         won = win_check(current_word,word_display)
 
