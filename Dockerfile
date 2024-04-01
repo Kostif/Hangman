@@ -1,4 +1,4 @@
-FROM python:3
+FROM alpine:3.19
 
 LABEL kostif dantestcr@gmail.com
 
