@@ -15,7 +15,7 @@ def player_guess():     # Ask user input check, if it's in the alphabet and stor
         guess = (input('Please guess a letter')).lower()
 
         if pattern.match != guess:
-            print("Please use a letter of the alphabet")
+            print("Please use a letter")
             continue
 
         if guess in used_letters:
